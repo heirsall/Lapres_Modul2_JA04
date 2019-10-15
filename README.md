@@ -5,26 +5,33 @@
 - Mochamad Thiesa Nabil (05111740000194)
 - Rizky Andre Wibisono (05111740000183)
 
-Palletkanto adalah sebuah Laboratorium milik Professor Oak yang meneliti pokemon. Laboratorium
+<p>Palletkanto adalah sebuah Laboratorium milik Professor Oak yang meneliti pokemon. Laboratorium
 tersebut memiliki 3 buah server bernama ARTICUNO, MEWTWO, dan MOLTRES. Server
 ARTICUNO akan digunakan sebagai DNS Server Master, MOLTRES akan digunakan sebagai DNS
 Server Slave, dan MEWTWO akan digunakan sebagai Web Server. Selain 3 server tersebut pada
 infrastruktur laboratoriumnya terdapat pula sebuah router bernama PIKACHU dan klien bernama
-SNORLAX dan PSYDUCK.
+SNORLAX dan PSYDUCK. </p> <br>
+<p>
 Kamu diminta untuk membuat sebuah website utama dengan (1) alamat http://kanto.yy.com yang
 memiliki (2) alias http://www.kanto.yy.com, dan (3) subdomain http://www.pallet.kanto.yy.com
 yang diatur DNS-nya pada ARTICUNO dan mengarah ke IP Server MEWTWO serta dibuatkan (4)
 reverse domain. Untuk mengantisipasi server rusak, mereka meminta dibuatkan (5) DNS Server Slave
-pada MOLTRES agar layanan tidak terganggu. selain website utama mereka juga meminta dibuatkan
+pada MOLTRES agar layanan tidak terganggu. </p>
+<br>
+<p>
+selain website utama mereka juga meminta dibuatkan
 (6) subdomain dengan alamat http://pewter.kanto.yy.com yang didelegasikan pada server
 MOLTRES dan mengarah ke IP Server MEWTWO. Karena laboratorium memiliki cabang di
 Vermilion City maka dibuatkan pula (7) domain dengan nama
 http://vermilion.pewter.kanto.yy.com, domain ini diarahkan ke server MEWTWO.
-Setelah selesai membuat keseluruhan domain, kamu diminta untuk segera mengatur web server. (8)
+Setelah selesai membuat keseluruhan domain, kamu diminta untuk segera mengatur web server. </p>
+<br>
+
+<p>(8)
 Domain http://kanto.yy.com memiliki DocumentRoot pada /var/www/kanto.yy.com.
 Awalnya web dapat diakses menggunakan alamat http://kanto.yy.com/index.php/home. Karena
 dirasa alamat urlnya kurang bagus, maka (9) diaktifkan mod rewrite agar urlnya menjadi
-http://kanto.yy.com/home.
+http://kanto.yy.com/home. </p>
 
 (10) Web http://pallet.kanto.yy.com akan digunakan untuk menyimpan aset file yang memiliki
 DocumentRoot pada /var/www/pallet.kanto.yy.com dan memiliki struktur folder sebagai berikut:
